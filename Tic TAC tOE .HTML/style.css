@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button,#reset{
+    height: 50px;
+    width: 100px;
+    border-radius: 8px;
+    }
+
+#x{
+    background-color: brown;
+    }
+
+
+ #o{
+    background-color: aqua;
+    }
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: repeat(3,100px) ;  /* 100px 100px 100px */
+}
+
+.grid-item{
+    border: 2px solid black;
+}
